@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "imgsrc": "https://i.ibb.co/KNJsw3W/img1.jpg",
+    "desttitle": "Beach Paradise",
+    "location": "Maldives",
+    "grade": 4.8,
+    "price": "$1500",
+    "description": "Escape to the pristine beaches of the Maldives and experience the ultimate relaxation."
+  },
+  {
+    "id": 2,
+    "imgsrc": "https://i.ibb.co/74NPfcC/img2.jpg",
+    "desttitle": "Historical Adventure",
+    "location": "Rome, Italy",
+    "grade": 4.5,
+    "price": "$1200",
+    "description": "Explore the rich history of Rome and witness iconic landmarks like the Colosseum and the Vatican."
+  },
+  {
+    "id": 3,
+    "imgsrc": "https://i.ibb.co/tC4kjc5/img3.jpg",
+    "desttitle": "City Escape",
+    "location": "New York City, USA",
+    "grade": 4.7,
+    "price": "$1800",
+    "description": "Discover the vibrant culture and skyscrapers of the Big Apple in New York City."
+  },
+  {
+    "id": 4,
+    "imgsrc": "https://i.ibb.co/gRH1q1b/img4.jpg",
+    "desttitle": "Mountain Retreat",
+    "location": "Swiss Alps",
+    "grade": 4.9,
+    "price": "$2100",
+    "description": "Enjoy breathtaking views and skiing in the stunning Swiss Alps."
+  },
+  {
+    "id": 5,
+    "imgsrc": "https://i.ibb.co/RzVJkVf/img5.jpg",
+    "desttitle": "Tropical Paradise",
+    "location": "Bali, Indonesia",
+    "grade": 4.6,
+    "price": "$1300",
+    "description": "Relax on the sandy beaches of Bali and immerse yourself in its unique culture."
+  },
+  {
+    "id": 6,
+    "imgsrc": "https://i.ibb.co/ZLP03Q6/img6.jpg",
+    "desttitle": "Safari Adventure",
+    "location": "Maasai Mara, Kenya",
+    "grade": 4.8,
+    "price": "$2400",
+    "description": "Embark on an unforgettable safari adventure in the heart of Maasai Mara."
+  },
+  {
+    "id": 7,
+    "imgsrc": "https://i.ibb.co/LJYqNNc/img7.jpg",
+    "desttitle": "Cultural Journey",
+    "location": "Kyoto, Japan",
+    "grade": 4.7,
+    "price": "$1600",
+    "description": "Immerse yourself in the traditional culture and temples of Kyoto, Japan."
+  },
+  {
+    "id": 8,
+    "imgsrc": "https://i.ibb.co/qWNv6DG/img8.jpg",
+    "desttitle": "Desert Expedition",
+    "location": "Sahara Desert, Morocco",
+    "grade": 4.6,
+    "price": "$2000",
+    "description": "Experience the magic of the Sahara Desert with camel rides and stargazing."
+  },
+  {
+    "id": 9,
+    "imgsrc": "https://i.ibb.co/8c5DCHg/img9.jpg",
+    "desttitle": "Island Adventure",
+    "location": "Santorini, Greece",
+    "grade": 4.9,
+    "price": "$1900",
+    "description": "Explore the stunning landscapes and crystal-clear waters of Santorini."
+  },
+  {
+    "id": 10,
+    "imgsrc": "https://i.ibb.co/7tRDs21/download.jpg",
+    "desttitle": "Hiking Expedition",
+    "location": "Machu Picchu, Peru",
+    "grade": 4.8,
+    "price": "$2200",
+    "description": "Trek to the ancient ruins of Machu Picchu and witness its archaeological wonders."
+  }
+]
