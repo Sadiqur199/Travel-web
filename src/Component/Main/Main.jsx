@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
-import './Main.scss'
 import {HiOutlineClipboardCheck, HiOutlineLocationMarker} from 'react-icons/hi'
+import './Main.scss'
 
 const Main = () => {
 const [Data , setData] = useState([])
@@ -18,6 +18,7 @@ const [Data , setData] = useState([])
           Most visited destinations
         </h3>
       </div>
+
       <div className="secContent grid">
       {
         Data.map((item)=>{
@@ -26,6 +27,7 @@ const [Data , setData] = useState([])
               <div className='imageDiv'>
                 <img src={item.imgsrc} alt={item.desttitle} />
               </div>
+
                <div className="cardInfo">
                 <h4 className='destTitle'>{item.desttitle}</h4>
                 <span className='continent flex'>
