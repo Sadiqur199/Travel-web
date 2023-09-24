@@ -26,7 +26,7 @@ const [Data , setData] = useState([])
         </h3>
       </div>
 
-      <div className="secContent grid">
+      <div className="secContent  grid">
       {
         Data.map((item)=>{
           return(
