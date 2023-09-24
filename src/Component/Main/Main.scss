@@ -156,3 +156,13 @@
   }
 
 }
+
+
+@media screen and (min-width:500px) {
+  .title{
+    font-size: 1.5rem;
+    &::after{
+      width: 155px !important;
+    }
+  }
+}
