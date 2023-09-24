@@ -1,20 +1,27 @@
 import React, { useEffect, useState } from 'react';
 import {HiOutlineClipboardCheck, HiOutlineLocationMarker} from 'react-icons/hi'
 import './Main.scss'
+import Aos from 'aos'
+import 'aos/dist/aos.css'
 
 const Main = () => {
+
+  useEffect(()=>{
+    Aos.init({duration: 2000})
+  },[])
+
 const [Data , setData] = useState([])
   useEffect(()=>{
     fetch("travel.json")
     .then(res=>res.json())
     .then(D=>setData(D))
   },[])
-  console.log(Data)
+  // console.log(Data)
   return (
     <section className='main container section'>
 
       <div className='secTitle'>
-        <h3 className='title'>
+        <h3 data-aos='fade-right' className='title'>
           Most visited destinations
         </h3>
       </div>
@@ -23,7 +30,7 @@ const [Data , setData] = useState([])
       {
         Data.map((item)=>{
           return(
-            <div key = {item.id} className='singleDestination'>
+            <div data-aos='fade-up' key = {item.id} className='singleDestination'>
               <div className='imageDiv'>
                 <img src={item.imgsrc} alt={item.desttitle} />
               </div>
