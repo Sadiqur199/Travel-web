@@ -1,0 +1,34 @@
+:root{
+  --PrimaryColor: hsl(199,100%,33%);
+  --SecondaryColor: hsl(187,85%,43%);
+  --gradientColor: linear-gradient(to right, hsl(187,85%,43%),hsl(199,100%,33%));
+  --whiteColor: hsl(0,0%,100%);
+  --blackColor: hsl(201,33%,16%);
+  --textColor: hsl(240,4%,36%);
+  --whiteColorDeam: hsl(0,0%,93%);
+  --grayText: rgb(190,190,190);
+  --inputColor: rgb(239,239,239);
+  --bodyColor: rgb(240,240,246);
+  --cardBG: rgb(225,225,235);
+  --cardHover:rgb(255, 255,255)
+}
+
+.footer{
+  width: 100%;
+  position: relative;
+  padding: 2rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+
+  .videoDiv{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+
+    video{
+      height: 100%;
+    }
+  }
+}
