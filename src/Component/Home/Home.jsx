@@ -22,7 +22,7 @@ const Home = () => {
     <>
     <section className='home'>
       <div className='overlay'></div>
-      <video src={video} muted autoPlay loop type="video/mp4"></video>
+      <video src={video} loop autoPlay muted type="video-/-mp4"></video>
 
       <div className="homeContent container">
         <div className='textDiv'>
@@ -81,7 +81,7 @@ const Home = () => {
     <section>
 
       <div className='whatsapp'>
-        <a href="https://wa.me/01775070762" target='_blank'>
+        <a href="https://wa.me/+8801775070762" target='_blank'>
         <img src="https://i.ibb.co/dPYfPcY/download-removebg-preview.png" alt="" />
         </a>
       </div>
