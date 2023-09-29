@@ -3,6 +3,7 @@ import './Navbar.scss';
 import {MdOutlineTravelExplore} from'react-icons/md';
 import {AiFillCloseCircle} from 'react-icons/ai'
 import {TbGridDots} from 'react-icons/tb'
+import { Link } from 'react-router-dom';
 const Navbar = () => {
 
   const [active , setActive] = useState('navBar')
@@ -19,17 +20,21 @@ const Navbar = () => {
     <section className='navBarSection'>
       <header className='header flex'>
         <div className='logoDiv'>
-          <a href="#" className='logo flex'>
+        <Link to='/'>
+        <a href="#" className='logo flex'>
             <h1><MdOutlineTravelExplore className='icon'/> Travel.</h1>
           </a>
+        </Link>
         </div>
  
         <div className={active}>
           <ul className='navLists flex'>
 
-            <li className='navItem'>
+          <Link to='/'>
+          <li className='navItem'>
               <a href="#" className='navLink'>Home</a>
             </li>
+            </Link>
 
             <li className='navItem'>
               <a href="#" className='navLink'>Package</a>

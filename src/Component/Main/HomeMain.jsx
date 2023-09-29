@@ -3,6 +3,7 @@ import {HiOutlineClipboardCheck, HiOutlineLocationMarker} from 'react-icons/hi'
 import './Main.scss'
 import Aos from 'aos'
 import 'aos/dist/aos.css'
+import { Link } from 'react-router-dom';
 
 const Main = () => {
 
@@ -55,7 +56,9 @@ const [Data , setData] = useState([])
                   <p>{item.description}</p>
                 </div>
 
-                 <button className='btn flex'>Details <HiOutlineClipboardCheck/> </button>
+                <Link to={`/destination/${item.id}`} className="btn flex">
+                  Details <HiOutlineClipboardCheck />
+                </Link>
 
                </div>
             </div>
