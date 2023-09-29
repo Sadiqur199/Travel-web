@@ -1,3 +1,18 @@
+:root{
+  --PrimaryColor: hsl(199,100%,33%);
+  --SecondaryColor: hsl(187,85%,43%);
+  --gradientColor: linear-gradient(to right, hsl(187,85%,43%),hsl(199,100%,33%));
+  --whiteColor: hsl(0,0%,100%);
+  --blackColor: hsl(201,33%,16%);
+  --textColor: hsl(240,4%,36%);
+  --whiteColorDeam: hsl(0,0%,93%);
+  --grayText: rgb(190,190,190);
+  --inputColor: rgb(239,239,239);
+  --bodyColor: rgb(240,240,246);
+  --cardBG: rgb(225,225,235);
+  --cardHover:rgb(255, 255,255)
+}
+
 .detailsCard{
   display: flex;
   padding-top: 80px;
@@ -34,6 +49,7 @@
     margin-bottom: 10px;
   }
   .price{
+    padding-left: 5px;
     span{
       font-size: large;
       font-weight: bold;
@@ -54,4 +70,22 @@
     }
   }
   }
+}
+
+@media screen and (max-width:769px){
+  .detailsCard{
+    flex-direction: column;
+
+    .imageDiv{
+      margin-left: 0px;
+      margin-right: 0px;
+  
+  }
+
+    .detailsDescription{
+      margin-left: 5px;
+    }
+  }
+
+
 }

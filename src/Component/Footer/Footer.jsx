@@ -10,6 +10,7 @@ import {
 } from "react-icons/ai";
 import Aos from 'aos'
 import 'aos/dist/aos.css'
+import { Link } from "react-router-dom";
 
 
 const Footer = () => {
@@ -42,11 +43,13 @@ const Footer = () => {
         <div className="footerCard flex">
           <div className="footerIntro flex">
             <div className="logoDiv">
-              <a href="" className="logo flex">
+               <Link to="/">
+               <a href="" className="logo flex">
                 {" "}
                 <MdOutlineTravelExplore className="icon" />
                 Travel.
               </a>
+              </Link>
             </div>
 
             <div data-aos='fade-up' className="footerParagraph">

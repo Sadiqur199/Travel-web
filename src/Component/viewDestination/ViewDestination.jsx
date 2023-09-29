@@ -2,6 +2,9 @@ import React, { useEffect, useState } from 'react';
 import { Link, useParams } from 'react-router-dom';
 import './ViewDestination.scss'
 import { HiOutlineClipboardCheck } from 'react-icons/hi';
+import 'react-toastify/dist/ReactToastify.css';
+import { ToastContainer, toast } from 'react-toastify';
+
 
 const ViewDestination = () => {
   const { id } = useParams(); // Get the 'id' parameter from the URL
@@ -42,6 +45,11 @@ const ViewDestination = () => {
     return <div>Destination not found for ID: {id}</div>;
   }
 
+  const ClickBookNow = () =>{
+    toast(`Complete Book ${destination.desttitle}`)
+
+  }
+
   return (
     <div className='detailsCard'>
       <div className='imageDiv'>
@@ -51,7 +59,9 @@ const ViewDestination = () => {
         <h2>{destination.desttitle}</h2>
        <p className='description'>{destination.description}</p>
        <p className='price'><span>Price:</span>{destination.price}</p>
-         <Link className='btn flex'> Book Now <HiOutlineClipboardCheck /></Link>
+       <p className='price'><span>Rating:</span>{destination.grade}</p>
+         <Link className='btn flex' onClick={ClickBookNow} > Book Now <HiOutlineClipboardCheck />     <ToastContainer />
+        </Link>
        </div>
     </div>
   );
