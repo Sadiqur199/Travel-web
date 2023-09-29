@@ -19,6 +19,7 @@ const Home = () => {
   },[])
 
   return (
+    <>
     <section className='home'>
       <div className='overlay'></div>
       <video src={video} muted autoPlay loop type="video/mp4"></video>
@@ -74,9 +75,18 @@ const Home = () => {
           <TbApps className='icon'/>
           </div>
          </div>
-
       </div>
     </section>
+
+    <section>
+
+      <div className='whatsapp'>
+        <a href="https://wa.me/01775070762" target='_blank'>
+        <img src="https://i.ibb.co/dPYfPcY/download-removebg-preview.png" alt="" />
+        </a>
+      </div>
+    </section>
+    </>
   );
 };
 
